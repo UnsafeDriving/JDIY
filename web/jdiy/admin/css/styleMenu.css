@@ -1,0 +1,41 @@
+.placeholder {
+	background-color: #eeeeee;
+}
+
+.ui-nestedSortable-error {
+	background:#fbe3e4;
+	color:#8a1f11;
+}
+ol {
+	margin: 0;
+	padding: 0;
+	padding-left: 40px;	
+	list-style-type: none;
+}
+ol.sortable {
+	padding-left:0px;
+	margin: 0;
+}
+
+.sortable li {
+	margin: 8px 0 0 0;
+	padding: 0px;
+}
+
+.sortable li div  {
+	background-color: #dddddd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#dddddd));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd);
+    background-image:    -moz-linear-gradient(top, #eeeeee, #dddddd);
+    background-image:     -ms-linear-gradient(top, #eeeeee, #dddddd);
+    background-image:      -o-linear-gradient(top, #eeeeee, #dddddd);
+    background-image:         linear-gradient(top, #eeeeee, #dddddd);	
+	border: 1px solid #cccccc;
+	padding: 8px;
+	margin: 0;
+	cursor: move;
+}
+#actionMenu {
+	text-align: center;
+	margin-top:-40px;
+}
