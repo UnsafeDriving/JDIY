@@ -127,7 +127,7 @@
 
 	 <div class="container mtb">
 	 	<div class="row">
-			<?php displayPlugins(); ?>
+			<?php //displayPlugins(); ?>
 			<br>
 			<?php displayPage($option); ?>
 	 	</div><! --/row -->
