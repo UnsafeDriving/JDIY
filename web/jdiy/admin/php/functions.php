@@ -25,8 +25,8 @@
 		
 		$salt = '#mf_sr#';
 		$dbhost = 'localhost';
-		$dbuser = 'root';
-		$dbpass = '69MFUN69';
+		$dbuser = 'user';
+		$dbpass = 'password';
 		$dbname = 'jdiy';
 		
 		$GLOBALS['crysession'] = md5(session_id());
